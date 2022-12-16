@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(-45deg, #0bdfce, #2985b6, #0adead, #09d166);
+  background-size: 400% 400%;
+  background-repeat: repeat-y;
+  animation: backgroundTransition 8s ease-in-out infinite;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #ffffff;
+  padding: 62px 0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+header h1:hover {
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  width: 634px;
+  height: 74px;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-image: url('../assets/search-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 95%;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  margin-bottom: 30px;
+  outline: none;
+  border: none;
+  color: #8a8a8a;
+  font-size: 18px;
+}
+
+.search::placeholder {
+  color: #8a8a8a;
+  font-size: 18px;
+}
+
+form label {
+  display: flex;
+  align-items: center;
+}
+
+.img_title{
+  border-radius: 60%;
+  width: 140px;
+}
+
+@keyframes load{
+  to{transform: rotate(360deg);}
+}
+.pre{
+  width: 80px; height: 80px;
+  background-image:url("https://ilustracode.com.br/assets/images/load.png");
+  background-position: center;
+  background-size: contain;
+
+  animation: load 2s infinite linear;
+  
+}
+
+.box-load{
+  position: absolute;
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  display: none;
+}
+
+.line_age{
+  width: 630px;
+  border: 1px solid #000;
+}
+
+.Title_h1{
+  font-size: 70px;
+  font-family: 'Corinthia', italic;
+  font-size: bold;
+  font-style: italic;
+}
+
+.favorites {
+  appearance: unset;
+  width: 16px;
+  height: 16px;
+  background: transparent;
+  border: 2px solid #706ea8;
+  border-radius: 4px;
+  margin-right: 11px;
+}
+
+.favorites:hover {
+  border-color: #6662d4;
+}
+
+.favorites:checked {
+  background-color: #706ea8;
+  background-image: url('../assets/check.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+
+.movie-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1224px;
+  background-color: #1d1c3b;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  padding: 29px 36px;
+  gap: 4rem;
+  box-shadow: 32.8387px 24.5482px 79px rgba(0, 0, 0, 0.15),
+    23.8851px 17.855px 53.2479px rgba(0, 0, 0, 0.121406),
+    16.6246px 12.4276px 34.4391px rgba(0, 0, 0, 0.10125),
+    10.9035px 8.15079px 21.3701px rgba(0, 0, 0, 0.0867188),
+    6.56775px 4.90965px 12.8375px rgba(0, 0, 0, 0.075),
+    3.46346px 2.58907px 7.6377px rgba(0, 0, 0, 0.0632813),
+    1.4367px 1.07399px 4.56719px rgba(0, 0, 0, 0.04875),
+    0.333519px 0.249318px 2.42246px rgba(0, 0, 0, 0.0285938);
+}
+
+.movie-logo {
+  height: 139px;
+  width: 139px;
+  filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.3));
+  border-radius: 800px;
+  background-color: purple;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+  max-width: 200px;
+}
+
+.info img {
+  margin-right: 0.25rem;
+}
+
+.info span {
+  font-weight: 400;
+  text-align: end;
+  padding-left: 1.75rem;
+}
+
+.score {
+  background-image: url('../assets/star.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-right: 1.25rem;
+}
+
+.like {
+  background-image: url('../assets/heart.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.like.active {
+  background-image: url('../assets/heart-clicked.svg');
+}
+
+.like:hover {
+  cursor: pointer;
+}
+
+.description {
+  max-width: 590px;
+  color: #acacac;
+}
+
+@keyframes backgroundTransition {
+  0% {
+      background-position:  0% 80%;
+  }
+  50% {
+      background-position: 80% 100%;
+  }
+  100% {
+      background-position: 0% 90%;
+  }
+}
+
+@media (max-width: 426px) {
+  body {
+    width: 100%;
+  }
+
+  .search {
+    max-width: 80vw;
+  }
+
+  .search::placeholder {
+    font-size: 14px;
+  }
+
+  .movie-card {
+    flex-direction: column;
+    max-width: 90%;
+  }
+}
