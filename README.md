@@ -61,8 +61,8 @@ O usuário poderá realizar as seguintes atividades:
 -  Deletar um filme favoritado
 
 
-TEMA: Cinema 🍿🎬
-Integrantes - T5 - Grupo 2
+<h1>TEMA: Cinema 🍿🎬</h1>
+<h3>Integrantes - T5 - Grupo 2</h3>
 
 Ruan Natan F. @VeGZx 💛 <br>
 Nathália Cardoso @NHCardoso 💛 <br>
