@@ -64,8 +64,8 @@ O usuário poderá realizar as seguintes atividades:
 TEMA: Cinema 🍿🎬
 Integrantes - T5 - Grupo 2
 
-Ruan Natan F. @VeGZx 💛
-Nathália Cardoso @NHCardoso 💛
-Igor @igorvv17 💛
-Maria @MariDutra💛
-Rafiki @Rfknzg 💛
+Ruan Natan F. @VeGZx 💛 <br>
+Nathália Cardoso @NHCardoso 💛 <br>
+Igor @igorvv17 💛 <br>
+Maria @MariDutra💛 <br>
+Rafiki @Rfknzg 💛 <br>
