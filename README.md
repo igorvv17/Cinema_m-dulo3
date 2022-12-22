@@ -62,7 +62,7 @@ O usuário poderá realizar as seguintes atividades:
 
 
 <h1>TEMA: Cinema 🍿🎬</h1>
-<h3>Integrantes - T5 - Grupo 2</h3>
+<h3>Integrantes - T5 Campo Grande, RJ - Grupo 2</h3>
 
 Ruan Natan F. @VeGZx 💛 <br>
 Nathália Cardoso @NHCardoso 💛 <br>
