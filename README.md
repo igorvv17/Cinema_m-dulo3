@@ -59,3 +59,13 @@ O usuário poderá realizar as seguintes atividades:
 -  Visualizar as notas dadas pelo filme
 -  Favoritar os filmes que o usuário
 -  Deletar um filme favoritado
+
+
+TEMA: Cinema 🍿🎬
+Integrantes - T5 - Grupo 2
+
+Ruan Natan F. @VeGZx 💛
+Nathália Cardoso @NHCardoso 💛
+Igor @igorvv17 💛
+Maria @MariDutra💛
+Rafiki @Rfknzg 💛
